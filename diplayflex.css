@@ -1,0 +1,51 @@
+body
+{font-family: 'Times New Roman', Times, sans-serif;
+}
+
+div
+{
+font-size: 24px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.container
+{display: flex;
+    flex-direction:row-reverse;
+    justify-content: space-around;
+    height: 700px;
+    align-items: center;
+}
+.one
+{border: solid 2px;
+height: 100px;
+width: 200px;}
+
+.one
+{border: solid 1px;
+height: 100px;
+width: 200px;}
+
+.two
+{border: solid 1px;
+height: 100px;
+width: 200px;}
+
+.three
+{border: solid 1px;
+height: 100px;
+width: 200px;}
+
+.forth
+{border: solid 1px;
+height: 100px;
+width: 200px;}
+
+.five
+{border: solid 1px;
+height: 100px;
+width: 200px;}
+
+
+

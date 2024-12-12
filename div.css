@@ -1,0 +1,7 @@
+body
+{font-family: 'open sans' sans-serif;}
+
+p::first-letter
+{color: #A92;
+font-size: 30px;
+font-family: monospace;}

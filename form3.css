@@ -1,0 +1,50 @@
+body
+{display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+height: 700px;
+background-image: url(..//html/image/pexels-photo-733853.jpeg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+
+.yup
+{display: flex;
+
+flex-direction: row;
+justify-content: space-between ;
+margin-bottom: 4pxs;
+}
+form
+{width: 590px;
+padding: 50px;
+
+border: 2px solid;
+background-image: url(../html/image/istockphoto-1403846937-612x612.jpg);
+
+background-position: center;
+background-size: cover;
+
+}
+.tou
+{
+ 
+   display: flex;
+   flex-direction: column;
+   padding: 5px;
+ 
+}
+#password
+{margin-top: 5px;
+
+} 
+
+#envoyer
+{;}
+
+input
+{border-radius: 5px;
+border: solid 1px;}

@@ -1,0 +1,102 @@
+body
+{
+    padding: 10px;
+    font-family: sans-serif;
+}
+header
+{display: flex;
+
+
+
+}
+.text
+{margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-top: 30px;
+    
+  
+}
+.container
+{display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: relative;
+    background-color: rgb(149, 204, 253);
+}
+.hofe
+{
+    
+
+}
+section
+{height: 700px;
+align-items: center;}
+#hofa
+{height: 500px;}
+#book
+{padding: 10px;
+background-color: blue;
+color: white;}
+
+#cardio
+{height: 50px;}
+
+.container2
+{
+display: grid;
+grid-template-columns: 450px 290px 290px 250px ;
+grid-template-rows: 250px 200px 200px 200px;
+gap: 10px;
+margin-left: 30px;}
+.text2
+{display: flex;
+width: 50%;
+justify-content: space-between;
+align-items: center;
+text-align: center;
+margin-left: 20px;}
+#consul
+{height: 50px;
+width: 50px;}
+.consul
+{border: solid white;
+width: 255px;
+height: 270px;
+padding-left: 20px;
+padding-top: 10px;
+display: flex;
+flex-direction: column;
+background-color: rgb(231, 230, 229);
+
+border-radius: 10px;
+margin-top: -300px;
+margin-left: 550px
+
+
+;}
+.streo
+{border: 2px solid;
+width: 230px;
+float: right;
+margin-top: -200px;
+height: 250px;
+margin-right: 50px;
+background-color: whitesmoke;
+border-radius: 5px;
+border: white solid;
+}
+.high
+{margin-right: 30px;}
+.why
+{margin-left: 30px;
+border: 1px solid;
+width: 390px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+background-color: azure;
+border-radius: 10px;
+border: solid white;
+}

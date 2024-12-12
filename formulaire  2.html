@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formu.css">
+</head>
+<body>
+    <h1>formulaire</h1>
+    <fieldset id="section1">
+    <legend>quel est votre genre</legend>
+
+    <form method="post" action="traitement" >
+        <label for="homme">un homme</label>
+       <input type="radio" id="homme" name="sexe" value="homme"><br>
+    
+   
+    <label for="femme">Une femme</label>
+    <input type="radio" id="femme" name="sexe" value="femme"><br>
+</fieldset>
+    <br><br><br><br><br>
+    <fieldset id="section2">
+    <legend>votre tranche d'age </legend>
+
+    <label for="mineur ">mineur </label>
+    <input type="radio" id="mineur" name="tranche" value="mineur"><br>
+    <label for="majeur ">majeur </label>
+    <input type="radio" id="mmineur" name="tranche" value="mineur">
+</fieldset>
+    <br><br>
+    <fieldset id="section3">
+    <legend>quel sport vous faite</legend>
+    
+    <label for="sport">natation</label>
+    <input type="checkbox" id="sport" name="natation" value="sport"><br>
+    <label for="sport">foot</label>
+    <input type="checkbox" id="sport" name="foot" value="sport"><br>
+    <label for="sport">course</label>
+    <input type="checkbox" id="sport" name="course" value="sport"><br>
+</fieldset>
+    <input type="submit" value="send">
+</form>
+</body>
+</html>

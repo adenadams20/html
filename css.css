@@ -1,0 +1,21 @@
+body
+{font-family: 'open sans',sans-serif;
+    background-image: url(../../Downloads/uchiha-itachi-naruto-shippuuden-anbu-silhouette-wallpaper-preview.jpg);
+    background-size: 30%;
+}
+
+
+.dev
+{
+    background: -webkit-radial-gradient(top left , blue, yellow , red ,orange, green);
+    background: -o-linear-gradient(right bottom ,blue, yellow , red ,orange ,green );
+    background: -moz-radial-gradient(top bottom right , blue, yellow , red ,orange , green);
+    background: linear-gradient(top bottom right , blue, yellow , red ,orange , green);
+    height: 500px;
+    overflow: scroll;
+    position: absolute;
+    left:30%; 
+    right: 30%;
+    text-align: center;
+}
+

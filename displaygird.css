@@ -1,0 +1,47 @@
+body
+{font-family: 'Courier New', Courier, monospace;}
+.container
+{
+display: grid;
+grid-template-columns: 1fr 2fr 1fr;
+grid-template-rows: 50px 100px 200px 100px 200px;
+gap: 4px
+;}
+.box
+{
+border-radius: 5px;
+border: solid 3px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;}
+.une:hover
+{background-color: red;}
+.une
+{grid-column-start: 1 ;
+grid-column-end:4 ;
+background-color: royalblue;}
+.deux:hover
+{background-color: rgb(102, 255, 0);}
+.deux
+{grid-row: 2 / 4;
+background-color: orange;}
+.trois
+{grid-column: 2 / 2;
+background-color: aqua;}
+.quatre
+{grid-column: 3 / 3;
+background-color: red;}
+.cinq
+{grid-column: 2 / 4;
+background-color: blue;}
+.six
+{grid-column: 1/3;
+background-color: greenyellow;}
+.sept
+{background-color: #A92;}
+.huit
+{grid-column: 1/3;
+background-color: yellow;}
+.neuf
+{background-color: chocolate;}

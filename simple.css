@@ -1,0 +1,30 @@
+body
+{background-image:url(../html/image/INTUITION_by_BringYourHate.jpg);
+background-size: cover;
+background-position: center;}
+form
+{background-image: url(../html/image/INTUITION_by_BringYourHate.jpg );
+border: 2px solid white;
+
+background-size: 700px;
+background-repeat: no-repeat;
+padding: 10px;
+
+width: 500px;
+display: flex;
+flex-direction: column;
+
+}
+.formu
+{display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;}
+input
+{padding: 5px;
+    border-radius: 70px;
+    
+}
+
+label
+{color: rgb(255, 255, 255);}

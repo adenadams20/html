@@ -1,0 +1,17 @@
+body
+{font-family: 'open sans' , sans-serif;}
+
+table
+{
+    border-collapse:separate;
+}
+
+td , th
+{ border: 2px solid;
+padding: 20px;}
+
+.paire
+{background-color: blue;}
+
+.impaire
+{background-color: yellowgreen;}

@@ -1,0 +1,109 @@
+body
+{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 700px;
+background-image: url(../html/image/tti-background.png);
+
+}
+img
+{width: 50%;
+}
+
+
+form
+{
+display: flex;
+flex-direction: row;
+width: 700px;
+border: solid 2px;
+border-radius: 10px
+;}
+.name
+{
+  border: 1px solid;
+  padding: 10px;
+  width: 100%;
+  
+ 
+    
+    
+}
+label
+{ 
+color: azure;
+font-size: 15px;
+font-weight: 505px;
+text-transform: capitalize;
+}
+
+#prenom
+{
+    width: 250px;
+    padding-bottom: px;
+}
+#nom
+{
+    width: 250px;
+  
+
+}
+input
+{border-bottom: 2px solid;
+padding: 5px;
+margin-top: 2px;
+background: transparent;
+border-right: none;
+border-top: none;
+border-left: none;
+
+
+}
+#send
+{width: 100px;
+    display: inline;
+    flex-direction: row
+;border: 1px solid;
+justify-content: center;
+margin-left: 40%;
+height: 50px;
+background-color: black;
+color: beige;
+}
+#naissance
+{width: 100%;}
+#lieux
+{width: 100%;}
+#tel
+{width: 100%;}
+#mail
+{width: 100%;}
+#nom
+{width: 70%;}
+#prenom
+{width: 80%;}
+#mail
+{width: 100%;}
+
+
+
+.haut
+{display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+    padding-bottom: 15px
+   
+    ;
+}
+.haut2
+{display: flex;
+flex-direction: column;
+width: 100%;
+float: right;
+padding-right: 5px
+;}
+label:valid
+{
+    color: aqua;
+}
